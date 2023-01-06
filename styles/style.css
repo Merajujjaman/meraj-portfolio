@@ -2,13 +2,35 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+.text-primary {
+    color: #FD6E0A;
+}
+.btn-primary{
+    color: #FFFFFF;
+    padding: 18px 36px;
+    border:none;
+    height: 64px;
+    background: #FD6E0A;
+    border-radius: 5px;}
 
 /* nav title style */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 215px;
+}
+
 .nav-title {
+    width: 121px;
+    height: 61px;
     font-weight: 800;
     font-size: 45px;
 }
-
-.text-primary {
-    color: #FD6E0A;
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
 }
